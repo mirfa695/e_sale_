@@ -23,7 +23,7 @@ class ProfileScreen extends StatelessWidget {
         Stack(
           clipBehavior: Clip.none,
           children: [
-            Container(
+          Obx(()=>  Container(
               height: 100,
               width: 100,
               decoration: BoxDecoration(
@@ -31,14 +31,16 @@ class ProfileScreen extends StatelessWidget {
                 image: controller.imagePath.value!=null? DecorationImage(image:FileImage(File(controller.imagePath.value!),),fit: BoxFit.cover):null,
                 gradient: LinearGradient(colors: ColorConstants.gradientColors)
               ),
-            )
+            ))
            ,
             Positioned(
               bottom: -10,
               right: 10,
               child: InkWell(
                 onTap: (){
-                   showBottomSheet(context: context, builder: (context)=>ImageBottomSheet());
+                   showModalBottomSheet(context: context,
+                    isDismissible: true,
+                    builder: (context)=>ImageBottomSheet());
                 },
                 child: CircleAvatar(
                   backgroundColor: Colors.black,

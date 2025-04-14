@@ -1,11 +1,15 @@
 import 'package:e_sale/constants/color_constants.dart';
+import 'package:e_sale/modules/profile/controller/profile_controller.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
 
 class ImageBottomSheet extends StatelessWidget {
   const ImageBottomSheet({super.key});
 
   @override
   Widget build(BuildContext context) {
+    final ProfileController controller = Get.put(ProfileController());
     return Container(
                     decoration: BoxDecoration(
                       color: Colors.white,
@@ -18,27 +22,39 @@ class ImageBottomSheet extends StatelessWidget {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
                         children: [
-                        Card(
-                          child: Padding(
-                            padding: const EdgeInsets.all(10.0),
-                            child: Column(
-                              spacing: 5,
-                              children: [
-                                Icon(Icons.camera),
-                                Text("Camera")
-                              ],
+                        SizedBox(
+                          height: 100,width: 100,
+                          child: InkWell(
+                            onTap: ()=>controller.getImageFromCamera().then((v)=>Navigator.pop(context)),
+                            child: Card(
+                              color: Colors.white,
+                              child: Padding(
+                                padding: const EdgeInsets.all(10.0),
+                                child: Column(
+                                  spacing: 5,
+                                  children: [
+                                    Icon(Icons.camera),
+                                    Text("Camera")
+                                  ],
+                                ),
+                              ),
                             ),
                           ),
                         ),
-                        Card(
-                          child: Padding(
-                            padding: const EdgeInsets.all(10.0),
-                            child: Column(
-                              spacing: 5,
-                              children: [
-                                Icon(Icons.photo_camera_back_outlined),
-                                Text("Gallery")
-                              ],
+                        SizedBox(height: 100,width: 100,
+                          child: InkWell(
+                            onTap: ()=>controller.getImageFromGallery().then((v)=>Navigator.pop(context)),
+                            child: Card(color: Colors.white,
+                              child: Padding(
+                                padding: const EdgeInsets.all(10.0),
+                                child: Column(
+                                  spacing: 5,
+                                  children: [
+                                    Icon(Icons.photo_camera_back_outlined),
+                                    Text("Gallery")
+                                  ],
+                                ),
+                              ),
                             ),
                           ),
                         )

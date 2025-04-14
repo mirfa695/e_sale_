@@ -24,9 +24,11 @@ class ProductScreen extends StatelessWidget {
           children: [
             SizedBox(
               width: MediaQuery.of(context).size.width-80,
-              child: CustomSearchField(hintText: "Search products",prefixIcon: Icon(Icons.search,color: ColorConstants.lightGreyColr,),)),
+              child: CustomSearchField(hintText: "Search products",
+              onChanged: (val)=>controller.searchProducts(val),
+              prefixIcon: Icon(Icons.search,color: ColorConstants.lightGreyColr,),)),
           CustomButton(onPressed: (){
-            showBottomSheet(context: context, builder: (context)=>FilterBottomSheet());
+            showModalBottomSheet(context: context,isDismissible: true, builder: (context)=>FilterBottomSheet());
           },icon: Icons.filter_alt_outlined,backgroundColor: Colors.white,)
           ],
         ),

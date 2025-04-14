@@ -20,8 +20,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'E-sale',
       theme: ThemeData(
-       
-        useMaterial3: true,
+       useMaterial3: true,
       ),
       home: const LoginScreen(),
     );

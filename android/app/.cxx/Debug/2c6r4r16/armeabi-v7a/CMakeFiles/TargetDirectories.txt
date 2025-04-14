@@ -1,0 +1,2 @@
+C:/Users/bmirf/Documents/e-commerce/e_sale/android/app/.cxx/Debug/2c6r4r16/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/bmirf/Documents/e-commerce/e_sale/android/app/.cxx/Debug/2c6r4r16/armeabi-v7a/CMakeFiles/rebuild_cache.dir

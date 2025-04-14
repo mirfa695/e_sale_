@@ -89,4 +89,17 @@ class ProductsController extends GetxController {
       selectedTags.value=[];
       await loadProducts();
     }
+
+    Future<void> searchProducts(String? search) async {
+      isLoading(true);
+     if(search?.isEmpty==true){
+            await loadProducts();
+
+     }else{
+      List<ProductModel> products= await ApiHelper.getApiResponse().then((v)=>v.products??[]);
+      List<ProductModel> filtered=products.where((e)=>e.title?.contains(search??"")==true).toList();
+      productResponse.value=productResponse.value.copyWith(products: filtered);
+     }
+     isLoading(false);
+    }
 }
