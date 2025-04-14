@@ -1,10 +1,10 @@
-import 'package:e_sale/common_widgets/custom_button.dart';
-import 'package:e_sale/common_widgets/custom_search_field.dart';
-import 'package:e_sale/common_widgets/product_debug_widget.dart';
-import 'package:e_sale/constants/color_constants.dart';
-import 'package:e_sale/modules/home_screen.dart/elements/product_card.dart';
-import 'package:e_sale/modules/product_screen/filter_bottom_sheet.dart';
-import 'package:e_sale/modules/product_screen/products_controller.dart';
+import 'package:logiology/common_widgets/custom_button.dart';
+import 'package:logiology/common_widgets/custom_search_field.dart';
+import 'package:logiology/common_widgets/product_debug_widget.dart';
+import 'package:logiology/constants/color_constants.dart';
+import 'package:logiology/modules/home_screen.dart/elements/product_card.dart';
+import 'package:logiology/modules/product_screen/filter_bottom_sheet.dart';
+import 'package:logiology/modules/product_screen/products_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -34,7 +34,7 @@ class ProductScreen extends StatelessWidget {
         ),
        
         SizedBox(
-          height: MediaQuery.of(context).size.height-220,
+          height: MediaQuery.of(context).size.height-241,
           child:Obx(()=> ProductDebugWidget(
            isLoading: controller.isLoading.value,
             responseModel: controller.productResponse.value,

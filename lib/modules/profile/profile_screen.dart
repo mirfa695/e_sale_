@@ -1,10 +1,10 @@
 import 'dart:io';
 
-import 'package:e_sale/common_widgets/custom_button.dart';
-import 'package:e_sale/constants/color_constants.dart';
-import 'package:e_sale/modules/profile/controller/profile_controller.dart';
-import 'package:e_sale/modules/profile/elements/image_bottom_sheet.dart';
-import 'package:e_sale/modules/profile/profile_list_tile.dart';
+import 'package:logiology/common_widgets/custom_button.dart';
+import 'package:logiology/constants/color_constants.dart';
+import 'package:logiology/modules/profile/controller/profile_controller.dart';
+import 'package:logiology/modules/profile/elements/image_bottom_sheet.dart';
+import 'package:logiology/modules/profile/profile_list_tile.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';

@@ -1,8 +1,8 @@
 import 'dart:math';
 
-import 'package:e_sale/helpers/api_helpers.dart';
-import 'package:e_sale/models/product_model.dart';
-import 'package:e_sale/models/product_response_model.dart';
+import 'package:logiology/helpers/api_helpers.dart';
+import 'package:logiology/models/product_model.dart';
+import 'package:logiology/models/product_response_model.dart';
 import 'package:get/get.dart';
 
 class ProductsController extends GetxController {

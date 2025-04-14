@@ -1,6 +1,6 @@
-import 'package:e_sale/helpers/hive_helper.dart';
+import 'package:logiology/helpers/hive_helper.dart';
 import 'package:get/get.dart';
-import 'package:e_sale/models/profile_model.dart';
+import 'package:logiology/models/profile_model.dart';
 
 class LoginController extends GetxController {
   Rx<Profile?> profile = Rx<Profile?>(Profile());

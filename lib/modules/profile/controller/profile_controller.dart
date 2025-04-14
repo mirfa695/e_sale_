@@ -1,8 +1,8 @@
-import 'package:e_sale/constants/color_constants.dart';
-import 'package:e_sale/helpers/hive_helper.dart';
+import 'package:logiology/constants/color_constants.dart';
+import 'package:logiology/helpers/hive_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:e_sale/models/profile_model.dart';
+import 'package:logiology/models/profile_model.dart';
 import 'package:image_picker/image_picker.dart';
 
 class ProfileController extends GetxController {

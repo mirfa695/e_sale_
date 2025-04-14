@@ -1,6 +1,6 @@
 import 'dart:convert';
-import 'package:e_sale/models/product_model.dart';
-import 'package:e_sale/models/product_response_model.dart';
+import 'package:logiology/models/product_model.dart';
+import 'package:logiology/models/product_response_model.dart';
 import 'package:http/http.dart' as http;
 class ApiHelper{
   static const String productsUrl="https://dummyjson.com/products";

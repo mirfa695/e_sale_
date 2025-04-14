@@ -1,5 +1,5 @@
-import 'package:e_sale/common_widgets/common_shimmer.dart';
-import 'package:e_sale/models/product_response_model.dart';
+import 'package:logiology/common_widgets/common_shimmer.dart';
+import 'package:logiology/models/product_response_model.dart';
 import 'package:flutter/material.dart';
 
 class ProductDebugWidget extends StatelessWidget {

@@ -1,4 +1,4 @@
-import 'package:e_sale/models/bottom_navigation_item.dart';
+import 'package:logiology/models/bottom_navigation_item.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

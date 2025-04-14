@@ -1,5 +1,5 @@
-import 'package:e_sale/models/profile_model.dart';
-import 'package:e_sale/modules/login/login_screen.dart';
+import 'package:logiology/models/profile_model.dart';
+import 'package:logiology/modules/login/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hive_flutter/adapters.dart';

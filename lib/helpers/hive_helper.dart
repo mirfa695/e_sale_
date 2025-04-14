@@ -1,4 +1,4 @@
-import 'package:e_sale/models/profile_model.dart';
+import 'package:logiology/models/profile_model.dart';
 import 'package:hive/hive.dart';
 
 class HiveHelper{

@@ -1,6 +1,6 @@
-import 'package:e_sale/constants/color_constants.dart';
-import 'package:e_sale/modules/login/elements/login_body.dart';
-import 'package:e_sale/modules/login/elements/login_header.dart';
+import 'package:logiology/constants/color_constants.dart';
+import 'package:logiology/modules/login/elements/login_body.dart';
+import 'package:logiology/modules/login/elements/login_header.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatelessWidget {

@@ -1,4 +1,4 @@
-import 'package:e_sale/helpers/model_helpers.dart';
+import 'package:logiology/helpers/model_helpers.dart';
 import 'package:flutter/widgets.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 

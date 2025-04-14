@@ -1,5 +1,5 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:e_sale/models/product_model.dart';
+import 'package:logiology/models/product_model.dart';
 
 part 'product_response_model.freezed.dart';
 part 'product_response_model.g.dart';

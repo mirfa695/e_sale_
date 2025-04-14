@@ -1,7 +1,7 @@
-import 'package:e_sale/common_widgets/custom_button.dart';
-import 'package:e_sale/constants/color_constants.dart';
-import 'package:e_sale/modules/product_screen/elements/filter_elements.dart';
-import 'package:e_sale/modules/product_screen/products_controller.dart';
+import 'package:logiology/common_widgets/custom_button.dart';
+import 'package:logiology/constants/color_constants.dart';
+import 'package:logiology/modules/product_screen/elements/filter_elements.dart';
+import 'package:logiology/modules/product_screen/products_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

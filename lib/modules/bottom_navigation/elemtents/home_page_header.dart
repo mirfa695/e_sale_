@@ -1,5 +1,5 @@
-import 'package:e_sale/constants/color_constants.dart';
-import 'package:e_sale/modules/profile/controller/profile_controller.dart';
+import 'package:logiology/constants/color_constants.dart';
+import 'package:logiology/modules/profile/controller/profile_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';

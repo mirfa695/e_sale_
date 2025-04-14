@@ -1,8 +1,8 @@
-import 'package:e_sale/common_widgets/custom_button.dart';
-import 'package:e_sale/constants/color_constants.dart';
-import 'package:e_sale/modules/bottom_navigation/bottom_navigation_page.dart';
-import 'package:e_sale/modules/login/elements/login_form.dart';
-import 'package:e_sale/modules/login/login_controller.dart';
+import 'package:logiology/common_widgets/custom_button.dart';
+import 'package:logiology/constants/color_constants.dart';
+import 'package:logiology/modules/bottom_navigation/bottom_navigation_page.dart';
+import 'package:logiology/modules/login/elements/login_form.dart';
+import 'package:logiology/modules/login/login_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
