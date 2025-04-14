@@ -1,0 +1,2 @@
+C:/Users/bmirf/Documents/e-commerce/e_sale/android/app/.cxx/RelWithDebInfo/6sq4c1y5/x86/CMakeFiles/edit_cache.dir
+C:/Users/bmirf/Documents/e-commerce/e_sale/android/app/.cxx/RelWithDebInfo/6sq4c1y5/x86/CMakeFiles/rebuild_cache.dir
